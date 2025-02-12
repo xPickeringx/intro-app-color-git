@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(135deg, #232526, #414345);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.card {
+    max-width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    background: #2c2f33;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.color-box {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    background-color: #000;
+    transition: background 0.3s ease-in-out;
+}
+
+input[type="number"] {
+    width: 60px;
+    text-align: center;
+    border-radius: 8px;
+    background: #444;
+    color: white;
+    border: 1px solid #666;
+}
+
+input[type="number"]::placeholder {
+    color: #bbb;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    background: #5865F2;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #4752c4;
+}
+
+input[type="color"] {
+    border: none;
+    background: transparent;
+}
