@@ -67,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
         };
     }
 
+    
     function copyToClipboard() {
         navigator.clipboard.writeText(hexCode.textContent).then(() => {
             alert("Código HEX copiado: " + hexCode.textContent);
